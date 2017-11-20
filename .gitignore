@@ -1,0 +1,15 @@
+# OS X
+.DS_Store
+
+# WebStorm
+.idea/
+
+# nwb
+/coverage
+/dist
+/node_modules
+npm-debug.log*
+
+# PDF
+/public/state.json
+/outputs/*.pdf

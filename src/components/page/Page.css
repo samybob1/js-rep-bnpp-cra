@@ -1,0 +1,21 @@
+.page {
+  height: 99%;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  -webkit-print-color-adjust: exact;
+  position: relative;
+}
+
+.page .tables {
+  position: absolute;
+  top: 95.65mm;
+  left: 43mm;
+}
+
+#total {
+  position: absolute;
+  right: 12.5mm;
+  top: 101mm;
+  width: 11.5mm;
+  text-align: center;
+}

@@ -1,0 +1,38 @@
+{
+  "name": "js-rep-bnpp-cra",
+  "version": "1.0.0",
+  "description": "JS-Republic - BNPP - Générateur de CRA",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "dev": "nwb serve-react-app",
+    "postinstall": "npm run build",
+    "pdf": "sh .scripts/pdf.sh",
+    "pdf:init": "node .scripts/init/index.js",
+    "pdf:export": "node .scripts/export/index.js",
+    "serve": "http-server dist"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "moment": "^2.19.2",
+    "prop-types": "^15.6.0",
+    "puppeteer": "^0.12.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "readline-sync": "^1.4.7",
+    "underscore": "^1.8.3",
+    "user-home": "^2.0.0",
+    "yargs": "^9.0.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "nwb": "0.18.x"
+  },
+  "author": "Samy Laumonier <samy.laumonier@gmail.com> (https://github.com/samybob1)",
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:samybob1/js-rep-bnpp-cra.git",
+    "type": "git"
+  }
+}

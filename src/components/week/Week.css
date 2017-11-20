@@ -1,0 +1,14 @@
+.week-table {
+  float: left;
+  width: 35.98mm;
+  margin-right: 2.1mm;
+  border-collapse: collapse;
+  font-size: 10px;
+  text-align: center;
+}
+
+.week-table td {
+  width: 6.3mm;
+  line-height: 3.3mm;
+  height: 3.3mm;
+}

@@ -1,0 +1,28 @@
+header {
+  position: absolute;
+  top: 41mm;
+  left: 53mm;
+  width: 157mm;
+}
+
+#header-left table {
+  border-collapse: collapse;
+}
+
+#header-left {
+  float: left;
+  width: 59.5mm;
+}
+
+#header-left tr {
+  height: 8.1mm;
+}
+
+#header-right {
+  float: right;
+  width: 60mm;
+  margin-top: 9mm;
+  height: 16mm;
+  padding-top: 5mm;
+  text-align: center;
+}
