@@ -63,7 +63,7 @@ function generateState() {
 }
 
 function getMetadata(csv) {
-  const regex = /([\w ]+),,,(\d{1,2}),(\d{4})/;
+  const regex = /([A-zÀ-ÿ ]+),,,(\d{1,2}),(\d{4})/;
   const [, name, month, year] = csv.match(regex);
   const date = moment(`${month} ${year}`, 'MM YYYY');
 
